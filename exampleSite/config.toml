@@ -86,13 +86,12 @@ name = "Categories"
 url = "/categories"
 weight = 2
 [[menu.main]]
-name = "Tags"
+name = "Series"
 url = "/series"
 weight = 3
 [[menu.main]]
-name = "^About"
-url = "/about"
-weight = 4
+name = "Tags"
+url = "/tags"
 
 
 # You can classify your posts by setting taxanomies in the front matter
