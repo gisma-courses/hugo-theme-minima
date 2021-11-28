@@ -4,6 +4,8 @@ A Clean and minimal Hugo theme porting from [Minima on Hexo](https://github.com/
 
 ![screenshot](./images/tn.png)
 
+The theme was slightly adapted to the needs of the gisma-courses concept.
+
 ## Features
 
 - [x] Light/dark mode
@@ -56,6 +58,9 @@ Follow [exampleSite/config.toml](https://github.com/Mivinci/hugo-theme-minima/bl
 | draft       | bool   | True if the post isn't already to production           |
 | toc         | bool   | True if the post needs a ToC                           |
 
+
+
 ### Feedback
 
 Feedbacks are welcome [here](https://github.com/Mivinci/hugo-theme-minima/issues).
+

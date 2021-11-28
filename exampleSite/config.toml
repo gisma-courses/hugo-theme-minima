@@ -1,7 +1,7 @@
-baseURL = "http://h.xjj.pub"
+baseURL = ""
 languageCode = "en-us"
-title = "Hi Folks"
-copyright = "© XJJ 2021"
+title = "my blog"
+copyright = ""
 paginate = 6
 googleAnalytics = ""
 
@@ -13,14 +13,14 @@ theme = "hugo-theme-minima"
 # Author has some of your information to be shown on the home 
 # page of your blog.
 [author]
-name = "XJJ"
-slogon = "A student and tech lover from Earth 🌍"
-description = "This is Minima, a clean and minimal Hugo theme porting from [Minima on Hexo](https://github.com/adisaktijrs/hexo-theme-minima). Except for everything from Hexo Minima like dark/light mode, it supports KaTeX and some taxonomies like categories, series and tags. I created this using SCSS, Vanilla JS and most importantly, Hugo. 😁"
+name = ""
+slogon = ""
+description = "Welcome Note"
 
 
 [params]
 # iam is the beginning words of your self-introduction.
-iam = "I am"
+iam = ""
 # The subtitle will be shown after the title of your blog site.
 # e.g. "title - subtitle".
 subtitle = ""
@@ -48,7 +48,7 @@ shortname = "hugo-minima"
 # **notice**: if you're going to use utterances, you must change the 
 # `repo` to your own repo address that stores comments on your site
 [params.utterances]
-repo = "mivinci/hugo-theme-minima"
+repo = "mygithubname/myreponame"
 issueTerm = "pathname"
 
 # **deprecated**
@@ -71,19 +71,7 @@ placeholder = ""
 # root directory of your blog. e.g. `name = '<svg>'`
 [[params.social]]
 name = "github"  
-url = "https://github.com/mivinci/hugo-theme-minima"
-svg = ""
-[[params.social]]
-name = "linkedin"
-url = "https://linkedin/in/leonard-mivinci-63895317a"
-svg = ""
-[[params.social]]
-name = "twitter"
-url = "https://twitter.com/Leonard14733745"
-svg = ""
-[[params.social]]
-name = "rss"
-url = "/index.xml"
+url = "https://github.com/gisma-courses/gi-modules"
 svg = ""
 
 
@@ -98,11 +86,11 @@ name = "Categories"
 url = "/categories"
 weight = 2
 [[menu.main]]
-name = "Series"
+name = "Tags"
 url = "/series"
 weight = 3
 [[menu.main]]
-name = "About"
+name = "^About"
 url = "/about"
 weight = 4
 
