@@ -4,11 +4,11 @@ title: "Markdown Syntax Guide"
 date: "2021-07-18T10:52:59+08:00"
 description: "Sample article showcasing basic Markdown syntax and formatting for HTML elements."
 toc: true
-categories: ["Markdown"]
+categories: ["Help"]
+weight: 3
 ---
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.
-
 <!--more-->
 
 ## Headings
@@ -16,15 +16,10 @@ This article offers a sample of basic Markdown syntax that can be used in Hugo c
 The following HTML `<h1>`—`<h6>` elements represent six levels of section headings. `<h1>` is the highest section level while `<h6>` is the lowest.
 
 # H1
-
 ## H2
-
 ### H3
-
 #### H4
-
 ##### H5
-
 ###### H6
 
 ## Paragraph
@@ -53,17 +48,15 @@ The blockquote element represents content that is quoted from another source, op
 
 Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
 
-| Name | Age |
-| ---- | --- |
-
+   Name | Age
+--------|------
     Bob | 27
-
   Alice | 23
 
 #### Inline Markdown within tables
 
 | Italics   | Bold     | Code   |
-| --------- | -------- | ------ |
+| --------  | -------- | ------ |
 | *italics* | **bold** | `code` |
 
 ## Code Blocks
@@ -97,10 +90,8 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
     </html>
 
 #### Code block with Hugo's internal highlight shortcode
-
 {{< highlight html >}}
 <!doctype html>
-
 <html lang="en">
 <head>
   <meta charset="utf-8">
@@ -119,6 +110,7 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 1. First item
 2. Second item
 3. Third item
+
 - [x] checked
 - [ ] not checked
 
@@ -137,3 +129,4 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 * Dairy
   * Milk
   * Cheese
+

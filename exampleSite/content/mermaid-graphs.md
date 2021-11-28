@@ -5,7 +5,8 @@ date: 2021-07-18T10:52:59+08:00
 description: A brief guide to setup Mermaid
 mermaid: true
 draft: false
-categories: ["Markdown", "Mermaid"]
+categories: ["Help"]
+weight: 5
 ---
 
 Here's a simple mermaid flowchart.
